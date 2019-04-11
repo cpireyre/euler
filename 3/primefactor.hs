@@ -21,3 +21,6 @@ isPrime x
 
 listPrimeFactors :: Int -> [Int] -- 600851475143 in the Euler problem statement.
 listPrimeFactors x = filter (isPrime) (listDivisors x)
+
+main = do
+    print (maximum $ listPrimeFactors 600851475143) 
