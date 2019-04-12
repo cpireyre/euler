@@ -1,0 +1,2 @@
+-- no code for this one. i solved it on paper.
+-- write out 20! then factor out the prime factors lower than 20
